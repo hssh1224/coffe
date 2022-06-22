@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커피주문사이트</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            background-color: burlywood
+        }
+        nav>ul>li{   
+        display: inline-block;
+        padding: 0px 15px 0px 15px;
+        
+    }
+    nav>ul>li>a:hover{
+        color: darkgrey
+    }
+    
+    ul{
+        
+        color: white;
+        
+        
+        
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    div{
+            width: 130px;
+            height: 120px;
+            padding: 10px;
+            border: 3px solid brown;
+            
+            background-size: 150px 150px;
+            background-repeat: no-repeat;
+            background-position:center ;
+            margin: 20px;
+            float: left; 
+            color: white;
+                text-shadow:2px 2px 2px black
+            
+    
+    
+            
+            
+            
+        }
+        .red{
+            background-image: url(../image/에스프레소.jpg);
+            
+            
+            
+            
+        }
+        .c1{
+            background-image: url(../image/아메리카노.jpg);
+        }
+        .c2{
+            background-image: url(../image/카페라떼.jpeg); 
+        }
+        .c3{
+            background-image: url(../image/카라멜마끼아또.jpg);
+        }
+        .c4{
+            clear: both;
+            background-image: url(../image/카페모카.jpeg);
+    
+        }
+        .c5{
+            background-image: url(../image/카푸치노.jpeg); 
+        }
+        .c6{
+            background-image: url(../image/바닐라라떼.jpeg); 
+        }
+        .c7{
+            background-image: url(../image/카라멜모카.jpeg); 
+        }
+        .c8{
+            clear: both;  
+            background-image: url(../image/민트모카.jpeg);
+        }
+        .c9{
+            background-image: url(../image/핫초코.jpg) 
+        }
+        .c10{
+            background-image: url(../image/헤이즐넛라떼.jpg) 
+        }
+        .c11{
+            background-image: url(../image/복숭아에이드.jpeg)
+        }
+        .c12{
+            clear: both;
+            background-image: url(../image/레몬에이드.jpg)
+        }
+        .c13{
+            background-image: url(../image/오렌지에이드.jpeg)
+        }
+        .c14{
+            background-image: url(../image/딸기라떼.jpeg)
+        }
+        .c15{
+            background-image: url(../image/바나나라떼.jpeg)
+        }
+        
+    input[type=checkbox]{
+        
+        margin: 35px 50px 1px;
+        
+    
+        
+    }
+
+    fieldset{
+        margin-left: 1000px;
+        text-align: left;
+        color: black;
+        border: 3px solid;
+
+        
+            
+    }
+    #hi{
+        color: black;
+        background-color: yellow;
+    }
+    span{
+        margin-left: 1000px;
+        
+    }
+    #주문{
+        margin-left: 240px;
+        
+    }
+    
+    
+    
+    
+    </style>
+    <body>
+        <center>
+        <h1>커피주문사이트</h1>
+        <hr/>
+    
+        <nav>
+            <ul>
+                
+                <li><a href="커피주문사이트.html">뒤로</li></a>
+                <li><a href="A사이트.html">처음으로</li></a>
+                <li><a href="주문페이지.html">다시선택하기</li></a>
+            </nav>
+    
+                
+        
+        
+        
+            </ul>
+            
+            <div class="red">에스프레소</div> 
+            <div class="c1">아메리카노</div>
+            <div class="c2">카페라떼</div>
+            <div class="c3">카라멜마끼아또</div>
+            <div class="c4">카페모카</div>
+            <div class="c5">카푸치노</div>
+            <div class="c6">바닐라라떼</div>
+            <div class="c7">카라멜모카</div>
+            <div class="c8">민트모카</div>
+            <div class="c9">핫초코</div>
+            <div class="c10">헤이즐넛라떼</div>
+            <div class="c11">복숭아에이드</div>
+            <div class="c12">레몬에이드</div>
+            <div class="c13">오렌지에이드</div>
+            <div class="c14">딸기라떼</div>
+            <div class="c15">바나나라떼</div>
+        </ul>
+        
+    
+    <fieldset style="width: 300px">
+    <legend id="hi">커피선택</legend>
+    <input type="checkbox" class="red"> 에스프레소 2.5
+    <input type="checkbox" name="아메리카노"> 아메리카노 3.0
+    <input type="checkbox" name="카페라떼"> 카페라떼 4.0
+    <input type="checkbox" name="카페모카"> 카페모카 4.2
+    <input type="checkbox" name="카푸치노"> 카푸치노 4.0
+    <input type="checkbox" name="카라멜마끼아또"> 카라멜마끼아또 5.0
+    <input type="checkbox" name="카라멜모카"> 카라멜모카 5.0
+
+    
+</fieldset>
+
+<fieldset style="width: 300px">
+    <legend id="hi">음료 선택</legend>
+    
+    <input type="checkbox" name="바닐라라떼">바닐라라떼 4.5
+    <input type="checkbox" name="헤이즐넛라떼"> 헤이즐넛라떼 4.5
+    <input type="checkbox" name="민트모카"> 민트모카 5.0
+    <input type="checkbox" name="딸기라떼"> 딸기라떼 4.5
+    <input type="checkbox" name="바나나라떼"> 바나나라떼 5.0 
+    <input type="checkbox" name="복숭아에이드"> 복숭아에이드 3.0
+    <input type="checkbox" name="레몬에이드"> 레몬에이드 3.0
+    <input type="checkbox" name="오렌지에이드"> 오렌지에이드 3.0
+    <input type="checkbox" name="핫초코"> 핫초코 2.5
+</fieldset>
+<br>
+
+
+<form action="주소입력페이지.html">
+<span><input type="submit" value="주문하기" id="주문"></span>
+</form>
+                
+
+
+
+
+
+   
+
+
+
+        
+    
+
+        </center>
+            </body>
+    
+            
+    
+            
+        
+            
+        
+        
+        
+
+</html>
