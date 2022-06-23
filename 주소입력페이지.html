@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주소입력페이지</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            background-color: burlywood
+        }
+        nav>ul>li{   
+        display: inline-block;
+        padding: 0px 15px 0px 15px;
+        
+        
+    }
+    nav>ul>li>a:hover{
+        color: darkgrey
+    }
+    
+    ul{
+        
+        color: white;
+        
+        
+        
+        
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    
+    #pl{
+        padding: 10px;
+    }
+    
+    td{
+        text-align: center;
+        background-color: honeydew;
+        
+    }  
+    table{
+        background-color: whitesmoke;
+        margin: 40px;
+        border: 1px;
+        
+    }
+    #qq{
+        background-color: beige;
+        color: black
+    }
+    #hh{
+        
+        background-color: white
+    }
+
+    </style>
+    <body>
+        <center>
+            <h1>주소입력</h1>
+            <hr/>
+            
+        </table>
+        <table border="1">
+        <tr><td id="qq">주소지</td><td><input type="text" size="21"></td></tr>
+        <tr><td id="qq">세부주소</td><td><input type="text" size="21"></td></tr>
+        <tr><td id="qq">전화번호</td><td><p><input type="text" size="3">-<input type="text"size="3">-<input type="text" size="3"></p></td></tr>
+        <tr><td id="qq"><input type="checkbox" id=" 체크"></td><td>문앞에 두시고 문자주세요</td></tr>
+
+        
+        
+    </table>
+    <table border="1">
+        <tr><td id="qq">세부 요청사항</td><td><input type="text" size="21" list="배민" placeholder="조심히 안전하게 와주세요"></td></tr>
+
+    </table>
+    <form action="결제페이지.html">
+        <input type="submit" value="결제" id="hh">
+    </form>
+
+
+
+
+    <datalist id="배민">
+        <option value="조심히 안전하게 와주세요"></option>
+        <option value="문앞에 두고 벨 눌러주세요"></option>
+        <option value="벨 누르지 말고 노크해주세요"></option>
+        <option value="도착하기 전에 전화해주세요"></option>
+        <option value="요청사항없음"></option>
+
+    </datalist>
+</html>

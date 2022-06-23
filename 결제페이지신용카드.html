@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신용카드</title>
+</head>
+<body>
+    
+    <style>
+        body{
+            background-color: burlywood
+        }
+        nav>ul>li{   
+        display: inline-block;
+        padding: 0px 15px 0px 15px;
+        
+    }
+    nav>ul>li>a:hover{
+        color: darkgrey
+    }
+    
+    ul{
+        
+        color: white;
+        
+        
+        
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    input[type=submit]{
+        background-color: brown;
+        color: white;
+        margin: 40px;
+    }
+    #확인{
+        background-color: white;
+        color: black;
+    }
+    </style>
+    <body>
+        <center>
+            <h1>결제페이지</h1>
+            <hr/>
+        
+            
+    
+                <form action="결제페이지.html" method="get">
+                <input type="submit" value="신용카드" ></form>
+                <p>카드선택 : <input type="text" list="은행"> </p> 
+                <p>카드번호 : <input type="text"size="3">-<input type="password"size="3">-<input type="text" size="3">-<input type="password"size="3"></p>
+                <p>유효기간 : <input type="text" size="3" placeholder="MM">/<input type="password"size="3"placeholder="YY"></p>
+                <p>유효기간 : <input type="password"size="12"placeholder="뒷면 숫자 끝 3자리"></p>
+                <p>비밀번호 : <input type="password"size="12"placeholder="앞 2자리"></p>  
+                <form action="결제페이지신용카드비밀번호.html" method="get">
+                <input type="submit" value="확인" id="확인">
+            </form>
+                
+                <form action="간편결제페이지.html" method="get">
+                    <input type="submit" value="간편결제" >
+                    </form>
+</html>
